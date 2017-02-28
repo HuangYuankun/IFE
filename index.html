@@ -2,44 +2,130 @@
 <html>
 <head lang=zh-cnm-Hans>
     <meta charset="utf-8">
-    <title>自定义radio checkbox样式</title>
-
-<style type="text/css">
-input[type="radio"]{
-  position:absolute;
-  left:-99999999px;
-}
-label input[type="radio"]:checked+span{
-  background:url(a.png) no-repeat;
-}
-label input[type="radio"]+span{
-  position:absolute;
-  display:inline-block;
-  width: 23px;
-  height: 23px;
-  background:url(c.png) no-repeat;
-  top: 0;
-  left: 0;
-}
-input[type="checkbox"]{
-  position:absolute;
-  left:-99999999px;
-}
-.radio{
-  display: block;
-  padding-left:25px;
-  position: relative;
-  float: left;
-  height: 10px;
-}
-
-</style>
+    <title>零基础HTML编码</title>
 </head>
 
 <body>
-<div>
-<label class="radio" for="white1"><input type="radio" name="1" id="white1"><span></span></label>
-<label class="radio" for="red1"><input type="radio" name="1" id="red1" checked="checked"><span></span></label>
-</div>
-</body>
-</html>
+    <h1>洋葱震惊</h1>
+    <nav>
+    <a href="http://www.baidu.com" title="China">震惊!</a>
+    <a href="http://www.baidu.com" title="China">震惊!</a>
+    <a href="http://www.baidu.com" title="China">震惊!</a>
+    <a href="http://www.baidu.com" title="China">震惊!</a>
+    <a href="http://www.baidu.com" title="China">震惊!</a>
+    </nav>
+
+    <article>
+    	<h2>胡说八道</h2>
+    	<h3>一派胡言</h3>
+    	<address>Huang Yuankun</address>
+    	<time datetime="2017-02-28">2017年2月28日</time>
+    	<p>blablablablablablablablablablabla</p><br/>
+    	<p>blablablablablablablabla</p><br/>
+        <p>blablablablablablablabla<a href="http://ife.baidu.com">百度前端技术学院</a>blablablablablablablabla<strong>这里是粗体字</strong>></p>
+        <img src="mouse.jpg">
+        <p>blablablablablablablablablablablablablablablabla</p><br/>
+        <p>blablablablablablablablablablablablabla<strong>这里是粗体字</strong>>blablablablablabla<a href="http://ife.baidu.com" target="_blank">百度前端技术学院</a>blablablablablablablablablablabla</p>
+    </article>
+
+    <article>
+        <h2>震惊！胖头鱼竟然...</h2>
+        <h3>BLABLABLA...</h3>
+        <address>Huang Yuankun</address>
+        <time datetime="2017-02-28">2017年2月28日</time>
+        <p>blablablablablablablablablablabla</p><br/>
+        <p>blablablablablablablabla</p><br/>
+        <p>blablablablablablablabla<a href="http://ife.baidu.com">百度前端技术学院</a>blablablablablablablabla<strong>这里是粗体字</strong>></p>
+        <img src="mouse.jpg">
+        <ul>
+    	    <li>项目一</li>
+    	    <li>项目二</li>
+    	    <li>项目三</li>
+        </ul>
+        <h3>图片</h3>
+        <img src="mouse.jpg"><br/>
+        <img src="mouse.jpg"><br/>
+        <img src="mouse.jpg"><br/>
+        <img src="mouse.jpg"><br/>
+        <img src="mouse.jpg"><br/>
+        <img src="mouse.jpg"><br/>
+        <img src="mouse.jpg"><br/>
+        <img src="mouse.jpg"><br/>
+        <img src="mouse.jpg"><br/>
+        <img src="mouse.jpg">
+    </article>
+
+    <article>
+    	<h2>啦啦啦</h2>
+    	<h3>啊一啊哦</h3>
+    	<ol>
+    		<li>排名一</li>
+    		<li>排名二</li>
+    		<li>排名三</li>
+    	</ol>
+    	<table border="1">
+    		<thead>
+    			<th>表头</th>
+    			<th>表头</th>
+    			<th>表头</th>
+    		</thead>
+    		<tr>
+    			<td>内容</td>
+    			<td>内容</td>
+    			<td>操作</td>
+    		</tr>
+    		<tr>
+    			<td>内容</td>
+    			<td>内容</td>
+    			<td>操作</td>
+    		</tr>
+    		<tr>
+    			<td>内容</td>
+    			<td>内容</td>
+    			<td>操作</td>
+    		</tr>
+    		<tr>
+    			<td>内容</td>
+    			<td>内容</td>
+    			<td>操作</td>
+    		</tr>
+    		<tfoot>
+    			<td>总计</td>
+    			<td colspan="2">1000</td>
+    		</tfoot>
+    	</table>
+    	<aside>
+    		<h2>侧栏标题</h2>
+    		<form method="post" action="save.php">注册窗口</form>
+    		    <label for="username">	请输入邮箱地址:</label>
+    		    <input type="text" id="username" name="username" value="请输入邮箱地址">
+    		    <label for="pass">	请输入密码:</label>
+    		    <input type="password" id="pass" name="pass" value="请输入密码">
+    		    <label for="repass">	请重复输入密码:</label>
+    		    <input type="password" id="repass" name="repass" value="请输入密码">
+    		    <p>密码请为6-16位英文数字</p>
+
+    		    <p>性别：</p>
+    		    <input type="radio" id="male" name="sex">
+    		    <label for="male">男</label>
+    		    <input type="radio" id="female" name="sex">
+    		    <label for="female">女</label>
+    		    <p>城市</p>
+    		    <select>
+    		    	<option>北京</option>
+    		    	<option>上海</option>
+    		    	<option>广州</option>
+    		    	<option>深圳</option>
+    		    </select>
+    		    <p>爱好</p>
+    		    <input type="checkbox" id="sport" name="sport">
+    		    <label for="sport">运动</label>
+    		    <input type="checkbox" id="art" name="art">
+    		    <label for="art">艺术</label>
+    		    <input type="checkbox" id="science" name="science">
+    		    <label for="science">科学</label>
+    		    <p>个人描述</p>
+    		    <textarea>这是一个多行输入框，输入您的个人描述</textarea>
+    		    <input type="submit" value="提交" name="submit">
+    	</aside>
+    </article>
