@@ -2,16 +2,14 @@
 	padding: 20px;
 	background-color: #eee;
 	border: 1px solid #999;
-	display: flex;
+	height: 100%;
 }
 #team{
 	padding: 20px;
 	width: 200px;
-	min-width: 200px;
 	border: 1px solid #999;
 	float: left;
 	background-color: white;
-	display: inline-block;
 	height: 120px;
 	box-sizing: border-box;
 	position: relative;
@@ -20,18 +18,19 @@
 	padding: 20px;
 	border: 1px solid #999;
 	background-color: white;
-	margin: 0 20px;
+	margin-left: 220px;
+	margin-right: 140px;
+	height: 100%;
+	word-break: break-all;
 }
 #logo{
 	padding: 20px;
 	width: 120px;
-	min-width: 120px;
 	border: 1px solid #999;
 	float: right;
 	background-color: white;
-	display: inline-block;
 	text-align: center;
-	max-height: 400px;
+	box-sizing: border-box;
 }
 .pp{
 	margin: 0 0 20px 0; 
