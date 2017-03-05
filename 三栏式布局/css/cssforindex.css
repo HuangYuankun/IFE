@@ -1,0 +1,43 @@
+#container{
+	padding: 20px;
+	background-color: #eee;
+	border: 1px solid #999;
+	display: flex;
+}
+#team{
+	padding: 20px;
+	width: 200px;
+	min-width: 200px;
+	border: 1px solid #999;
+	float: left;
+	background-color: white;
+	display: inline-block;
+	height: 120px;
+	box-sizing: border-box;
+	position: relative;
+}
+#main{
+	padding: 20px;
+	border: 1px solid #999;
+	background-color: white;
+	margin: 0 20px;
+}
+#logo{
+	padding: 20px;
+	width: 120px;
+	min-width: 120px;
+	border: 1px solid #999;
+	float: right;
+	background-color: white;
+	display: inline-block;
+	text-align: center;
+	max-height: 400px;
+}
+.pp{
+	margin: 0 0 20px 0; 
+}
+#team span{
+	position: absolute;
+	top: 20px;
+	right: 20px;
+}
