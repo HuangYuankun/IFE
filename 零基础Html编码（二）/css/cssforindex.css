@@ -1,0 +1,142 @@
+body{
+	background-color: rgb(222,222,222);
+}
+
+
+header{
+	position: relative;
+	background-color: rgb(51,51,51);
+	height: 80px;
+	margin: 0;
+	width: 100%;
+}
+h1{
+	width: 350px;
+	color: rgb(255,255,255);
+	position: absolute;
+	left: 20px;
+}
+#lead{
+	position: absolute;
+	width: 300px;
+	height: 20px;
+	margin: 0;
+	top: 30px;
+	right: 0;
+}
+header ul li a{
+	color: rgb(255,255,255);
+	font-weight: bold;
+	text-decoration:none;
+}
+.hua{
+	display: inline;
+}
+
+
+
+#side{
+	float: right;
+	width: 350px;
+	margin: 10px 10px 0 20px;
+	box-shadow: 3px 3px rgb(132,132,132);
+}
+aside{
+	margin: 0;
+	padding: 10px;
+	background-color: rgb(255,255,255);
+	height: 500px;
+	position: relative;
+}
+.first p{
+	color: rgb(132,132,132);
+}
+.second{
+	text-align: left;
+	width: 320px;
+	margin: 0;
+	position: absolute;
+	left: 90px;
+}
+.bb{
+	display: inline;
+}
+#txt{
+	position: absolute;
+	top: 370px;
+	width: 100%;
+	height: 130px;
+}
+#txt p{
+	margin: 0;
+	padding: 0;
+	position: absolute;
+}
+textarea{
+	height: 100px;
+	width: 230px;
+	position: absolute;
+	left: 80px;
+}
+#btn{
+	border-radius: 5px;
+	width: 95%;
+	background-color: blue;
+	position: absolute;
+	bottom: 5px;
+	height: 35px;
+	font-weight: bold;
+	color: white;
+	font-size: 0.9em;
+}
+
+
+div.paper{
+	margin: 10px 370px 10px 10px;
+	padding: 10px;
+	background-color: rgb(255,255,255);
+	box-shadow: 3px 3px rgb(132,132,132);
+}
+div.image{
+    border: 1px black solid;
+	width: 150px;
+	margin: 10px;
+	text-align: center;
+	display: inline-block;
+	box-sizing: border-box;
+}
+h3,address,time{
+	color: grey;
+}
+
+
+table{
+	width: 100%;
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+th{
+	background-color: rgb(51,51,51);
+	color: rgb(255,255,255);
+}
+tfoot td{
+	background-color: rgb(204,204,204);
+}
+td{
+	border: 1px solid black;
+}
+
+
+footer{
+	background-color: rgb(0,0,0);
+	height: 80px;
+	margin: 0;
+	color: rgb(255,255,255);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+}
+footer div{
+	font-weight: bold;
+}
